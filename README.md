@@ -21,3 +21,10 @@ Se conseguir síncrona/assíncrona:
 - REST (latência)
 - Redis / RabbitMQ / **Kafka** (nubank, uber, paypal, netflix);
 
+## Conclusão
+
+- Utilizamos um simulador de requisição (extensão do chrome ou postman) para localhost:3333
+- Conseguimos observar a mensagem enviada pela requisição no serviço que gera o certificado fictício, e a resposta recebida por ele no serviço API
+
+- 'yarn dev' na api e na certification
+- docker-compose up -d na raíz
